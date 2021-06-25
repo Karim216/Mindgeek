@@ -66,6 +66,8 @@ header div:nth-child(2){
 
 h1{
     font-size: 3em;
+    text-align: center;
+    line-height: 3.5rem;
 }
 
 header p{
@@ -293,6 +295,9 @@ footer nav{
     flex-direction: row;
     width: 80%;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 3rem;
 }
 
 footer nav a{
@@ -324,4 +329,26 @@ footer #licence{
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    header div:first-child, #nav1{
+        width: 90%;
+    }
+
+    .rech span{
+        padding-left: 5%;
+    }
+
+    main.home, main.cloud, main.dedie, main.mutualise{
+        max-width: 90%;
+    }
+
+    footer nav{
+        width: 90%;
+    }
+
+    footer #licence{
+        width: 90%;
+    }
 }
