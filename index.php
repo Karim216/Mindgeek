@@ -14,7 +14,7 @@
         <div>
             <img src="img/logo.png" alt="logo"/>
             <nav id="nav1">
-                <a href="#"><i class="fas fa-users"></i><span>Serveur mutualisé</span></a>
+                <a href="view"><i class="fas fa-users"></i><span>Serveur mutualisé</span></a>
                 <a href="#"><i class="fas fa-user"></i><span>Serveur dédié</span></a>
                 <a href="#"><i class="fas fa-cloud"></i><span>Serveur "cloud"</span></a>
                 <a href="#"><i class="fas fa-envelope"></i><span>Contact</span></a>
