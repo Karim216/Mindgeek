@@ -52,6 +52,12 @@ img[alt="logo"]{
     font-size: 125%;
 }
 
+label[for="check"]{
+    display: none;
+    font-size: 3rem;
+    color: #f58b94;
+}
+
 header div:nth-child(2){
     background-image: url(../img/background.jpg);
     background-position: center;
@@ -331,7 +337,7 @@ footer #licence{
     font-weight: bold;
 }
 
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 991px){
     header div:first-child, #nav1{
         width: 90%;
     }
@@ -350,5 +356,32 @@ footer #licence{
 
     footer #licence{
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    label[for="check"]{
+        display: block;
+    }
+
+    #nav1{
+        position: absolute;
+        background-color: #f16176;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        display: none;
+        padding: 2% 0;
+        transition: 0.5s;
+        z-index: 1;
+    }
+
+    #nav1 a{
+        padding: 2%;
+    }
+
+    #hom #nav1 a:first-child, #mut #nav1 a:nth-child(2), #ded #nav1 a:nth-child(3),
+    #clo #nav1 a:nth-child(4), #cont #nav1 a:nth-child(5){
+        background-color: #ffffff;
     }
 }
