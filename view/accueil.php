@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Candal&family=Open+Sans&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="./css/style.css"/>
-    <title>Contact</title>
+    <title>Index</title>
 </head>
 <body>
-    <header id="cont">
+    <header>
         <div>
             <img src="img/logo.png" alt="logo"/>
             <nav id="nav1">
-                <a href="#"><i class="fas fa-users"></i><span>Serveur mutualisé</span></a>
+                <a href="view"><i class="fas fa-users"></i><span>Serveur mutualisé</span></a>
                 <a href="#"><i class="fas fa-user"></i><span>Serveur dédié</span></a>
                 <a href="#"><i class="fas fa-cloud"></i><span>Serveur "cloud"</span></a>
                 <a href="#"><i class="fas fa-envelope"></i><span>Contact</span></a>
@@ -26,29 +26,7 @@
         </div>
         <div class="rech"><span>que recherchez-vous ?</span></div>
     </header>
-    <main class="contact">
-        <section class="service">
-            <h2>Contactez nous</h2>
-            <div class="divc">
-                <div>
-                    <i class="fas fa-paper-plane"></i><hr/>
-                    <span><abbr title="mail">Mail:</abbr><a href="mailto:njigbetnkom@gmail.com">njigbetnkom@gmail.com</a></span>
-                </div>
-                <div>
-                    <i class="fas fa-phone-alt"></i><hr/>
-                    <span><abbr title="tel">Tel:</abbr><a href="tel:+21652444534">+216 52444354</a></span>
-                </div>
-                <div>
-                    <i class="fas fa-envelope"></i><hr/>
-                    <span><address><a href="#"><strong>MindGeek</strong>46 rue Réné Clair 75018 Paris</a></address></span>
-                </div>
-            </div>
-        </section>
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94740073549!2d2.276848998187375!3d48.85883763552095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x30b82c3688b2a30!2sArrondissement%20de%20Paris%2C%20Paris%2C%20France!5e0!3m2!1sfr!2stn!4v1603294100887!5m2!1sfr!2stn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </section>
-    </main>
-    <footer class="contact">
+    <footer>
         <nav id="nav2">
             <a href="#">Accueil</a>
             <a href="#">Serveur mutualisé</a>
