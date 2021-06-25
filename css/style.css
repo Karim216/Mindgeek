@@ -108,6 +108,15 @@ h3{
 }
 
 /*====================HOME====================*/
+#hom div #nav1 a:first-child i{
+    color: black;
+}
+
+#hom div #nav1 a:first-child span{
+    color: #fb8b9b;
+}
+
+
 main.home section{
     display: flex;
     flex-direction: column;
@@ -139,11 +148,11 @@ main.home h3, main.home i, main.home strong{
 }
 
 /*====================MUTUALISE====================*/
-#mut div #nav1 a:first-child i{
+#mut div #nav1 a:nth-child(2) i{
     color: black;
 }
 
-#mut div #nav1 a:first-child span{
+#mut div #nav1 a:nth-child(2) span{
     color: #fb8b9b;
 }
 
@@ -197,11 +206,11 @@ main.home h3, main.home i, main.home strong{
 }
 
 /*====================DEDIE====================*/
-#ded div #nav1 a:nth-child(2) i{
+#ded div #nav1 a:nth-child(3) i{
     color: black;
 }
 
-#ded div #nav1 a:nth-child(2) span{
+#ded div #nav1 a:nth-child(3) span{
     color: #fb8b9b;
 }
 
@@ -210,11 +219,11 @@ main.home h3, main.home i, main.home strong{
 }
 
 /*====================CLOUD====================*/
-#clo div #nav1 a:nth-child(3) i{
+#clo div #nav1 a:nth-child(4) i{
     color: black;
 }
 
-#clo div #nav1 a:nth-child(3) span{
+#clo div #nav1 a:nth-child(4) span{
     color: #fb8b9b;
 }
 
@@ -223,11 +232,11 @@ main.home h3, main.home i, main.home strong{
 }
 
 /*====================CONTACT====================*/
-#cont div #nav1 a:nth-child(4) i{
+#cont div #nav1 a:nth-child(5) i{
     color: black;
 }
 
-#cont div #nav1 a:nth-child(4) span{
+#cont div #nav1 a:nth-child(5) span{
     color: #fb8b9b;
 }
 
