@@ -143,8 +143,13 @@ main.home section div article{
     flex-basis: 100%;
 }
 
+main.home section div article:nth-child(2){
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
 main.home p{
-    text-align: left;
+    text-align: center;
 }
 
 main.home i{
@@ -384,4 +389,20 @@ footer #licence{
     #clo #nav1 a:nth-child(4), #cont #nav1 a:nth-child(5){
         background-color: #ffffff;
     }
+
+    .service div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service div article{
+       width: 50%;
+       margin: 0 0 4% 0;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .service div article{
+        width: 90%;
+     }
 }
