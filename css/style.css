@@ -1,0 +1,318 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+/*=====================HEADER=====================*/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    padding: 2% 0;
+}
+
+img[alt="logo"]{
+    width: 10%;
+}
+
+#nav1{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav1 a{
+    font-family: 'Candal', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+#nav1 a i{
+    color: #f58b94;
+    font-size: 125%;
+}
+
+header div:nth-child(2){
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    width: 100%;
+    font-family: 'Candal', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 10% 0;
+}
+
+h1{
+    font-size: 3em;
+}
+
+header p{
+    font-size: 2em;
+    width: 90%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.rech{
+    background-color: #fb8b9b;
+    text-transform: uppercase;
+    width: 100%;
+    color: #ffffff;
+    padding: 1% 0;
+}
+
+.rech span{
+    padding-left: 10%;
+    opacity: 0.5;
+}
+
+/*====================MAIN====================*/
+main.home, main.cloud, main.dedie, main.mutualise{
+    max-width: 80%;
+    margin: auto;
+    opacity: 0.6;
+}
+h2{
+    font-size: 1.8em;
+    font-family: 'Candal', sans-serif;
+    text-align: center;
+    border: 1px dashed black;
+    border-bottom: none;
+    padding: 2%;
+}
+h3{
+    font-size: 1.2em;
+    font-family: 'Candal', sans-serif;
+}
+
+/*====================HOME====================*/
+main.home section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+main.home section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 2%;
+}
+
+main.home section div article{
+    flex-basis: 100%;
+}
+
+main.home p{
+    text-align: left;
+}
+
+main.home i{
+    font-size: 200%;
+}
+
+main.home h3, main.home i, main.home strong{
+    color: #fb8b9b;
+}
+
+/*====================MUTUALISE====================*/
+#mut div #nav1 a:first-child i{
+    color: black;
+}
+
+#mut div #nav1 a:first-child span{
+    color: #fb8b9b;
+}
+
+.service{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+.service p{
+    padding: 0 2%;
+}
+.service div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.service div article{
+    flex-basis: 100%;
+    border: 1px dashed black;
+    margin: 0 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service h3{
+    color: #ffffff;
+    background-color: #213e4e;
+    width: 95%;
+    padding: 4% 0;
+    text-align: center;
+}
+
+.prixm{
+    font-family: 'Candal', sans-serif;
+}
+
+.commande{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #fb8b9b;
+    width: 95%;
+    text-align: center;
+    padding: 4% 0;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    font-family: 'Candal', sans-serif;
+}
+
+/*====================DEDIE====================*/
+#ded div #nav1 a:nth-child(2) i{
+    color: black;
+}
+
+#ded div #nav1 a:nth-child(2) span{
+    color: #fb8b9b;
+}
+
+.dedie section div article ul{
+    margin-left: -45%;
+}
+
+/*====================CLOUD====================*/
+#clo div #nav1 a:nth-child(3) i{
+    color: black;
+}
+
+#clo div #nav1 a:nth-child(3) span{
+    color: #fb8b9b;
+}
+
+.cloud section div article ul{
+    margin-left: -45%;
+}
+
+/*====================CONTACT====================*/
+#cont div #nav1 a:nth-child(4) i{
+    color: black;
+}
+
+#cont div #nav1 a:nth-child(4) span{
+    color: #fb8b9b;
+}
+
+main.contact section:first-child{
+    max-width: 80%;
+    margin: auto;
+    opacity: 0.6;
+}
+
+.contact h2{
+    margin-top: 5%;
+}
+
+.divc div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.divc div i{
+    font-size: 390%;
+    color: #fb8b9b;
+}
+
+
+.divc div hr{
+    width: 85%;
+    border: 1px dashed #fb8b9b;
+    margin: 4% 0;
+}
+
+.divc div a{
+    text-decoration: none;
+    color: #f16176;
+}
+
+iframe{
+    width: 100%;
+    margin-top: 10%;
+}
+
+/*====================FOOTER====================*/
+footer{
+    background-color: #213e4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Candal', sans-serif;
+    font-size: 1.5em;
+}
+
+footer #licence{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#licence img{
+    width: 7%;
+    margin-bottom: 0.5%;
+}
+
+#licence span{
+    text-align: center;
+    font-size: 0.5em;
+    color: #ffffff;
+}
+
+#licence span a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
